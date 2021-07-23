@@ -1,9 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+<head>
+  <link rel= "stylesheet" href= "styles.css">
+</head>
 
-<p>
-This is going to be our homepage
-</p>
+<header>
+  <h1>Capstone Project Style Guide</h1>
+</header>
+
+<body class='grad'>
+  <div class='colors'>
+    <h2>Colors</h2>
+      
+       <div class='containers'>
+        
+        <div class='colorContainer1'>
+          <p class='color-label-dark'>Midnight Blue<br>#191269<br>HSL: 245, 71, 24<br>RGB: 25, 18, 105</p>
+        </div>
+        <div class='colorContainer2'>
+          <p class='color-label-dark'>Purple<br>#6F24B3<br>HSL: 271, 67, 42<br>RGB: 111, 36, 179</p>
+        </div>
+        <div class='colorContainer3'>
+          <p class='color-label-dark'>Electric Purple<br>#BD45FF<br>HSL: 279, 100, 64<br>RGB: 189, 69, 255</p>
+        </div>
+        <div class='colorContainer4'>
+          <p class='color-label-light'>Mauve<br>#FEAEFF<br>HSL: 299, 100, 84<br>RGB: 254, 174, 255</p>
+        </div>
+        <div class='colorContainer5'>
+          <p class='color-label-light'>Laser Lemon<br>#FFFF7A<br>HSL: 60, 100, 74<br>RGB: 255, 255, 122</p>
+        </div>
+        <a href="#popup1"><button type="button">Click for more</button></a>
+      </div>
+  </div>
+
+  <div id="popup1" class="overlay">
+  	<div class="popup">
+	  	<h2>Color Pallete via Coolors.co</h2>
+	    	<a class="close" href="#">&times;</a>
+	      	<div class="content">
+		      	<!-- Coolors Palette Widget -->
+      <script src="https://coolors.co/palette-widget/widget.js"></script>
+      <script data-id="020053342862610468">new CoolorsPaletteWidget("020053342862610468", ["191269","6f24b3","bd45ff","feaeff","ffff7a"]); </script>
+	    	  </div>
+	  </div>
+  </div>
+
+  <div class='fonts'>
+    <h2>Fonts</h2>
+        <div class='containers'>
+
+          <div class='font-container-1'>
+            <p class='nunito-title'><u>Nunito Sans</u></p>
+            <p class='nunito-font'>The quick brown fox jumps over the lazy dog.</p>
+            <p class='nunito-font'><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+            <p class='nunito-font'><em>The quick brown fox jumps over the lazy dog.</em></p>
+          </div>
+          <div class='font-container-2'>
+            <p class='roboto-title'><u>Roboto</u></p>
+            <p class='roboto-font'>The quick brown fox jumps over the lazy dog.</p>
+            <p class='roboto-font'><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+            <p class='roboto-font'><em>The quick brown fox jumps over the lazy dog.</em></p>
+          </div>
+          <div class='font-container-3'>
+            <p class='source-code-title'><u>Source Code Pro</u></p>
+            <p class='source-code-font'>The quick brown fox jumps over the lazy dog.</p>
+            <p class='source-code-font'><strong>The quick brown fox jumps over the lazy dog.</strong></p>
+            <p class='source-code-font'><em>The quick brown fox jumps over the lazy dog.</em></p>
+          </div>
+         
+
+        </div>
+  </div>
+
+  <div class='textStyles'>
+    <h2>Text Styles</h2>
+      <div class='containers'>
+        <div class='h1-headings'>
+          <h1>H1 Main Page Headings</h1>
+            <ul>
+               <li><span>Font Weight: 800 Bold </span></li>
+               <li><span>Font Size: 38px </span></li>
+               <li><span>Font Family: Roboto, Sans-Serif </span></li>
+                <li><span>Font Color: #343434 on light, #FFF on dark </span></li>
+               <li><span>Text Transformations: Uppercase </span></li>
+               
+            </ul>
+        </div>
+        <div class='h2-headings'>
+          <h2>H2 Sub Headings</h2>
+            <ul>
+               <li><span>Font Weight: 200 Light </span></li>
+               <li><span>Font Size: 28px </span></li>
+               <li><span>Font Family: Nunito Sans, Sans-Serif </span></li>
+               <li><span>Font Color: #343434 on light, #FFF on dark </span></li>
+              <li><span>Text Transformations: Uppercase </span></li>
+               <li><span>Letter Spacing: 2px </span></li>
+            </ul>
+          </div>
+          <div class='paragraph-text'>
+          <p >P Paragraph Text</p>
+            <ul>
+               <li><span>Font Weight: 400 Normal </span></li>
+               <li><span>Font Size: 16px </span></li>
+               <li><span>Font Family: Source Code Pro, Sans-Serif </span></li>
+               <li><span>Font Color: #343434 on light, #FFF on dark  </span></li>
+              <li><span>Text Transformations: None </span></li>
+            </ul>
+          </div>
+      </div>
+  </div>
+
+  <div class='photos'>
+    <h2>Inspiration Images</h2>
+    <img src='https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg'>
+    <img src='https://static.vecteezy.com/system/resources/previews/000/347/654/original/vector-moon-galaxy-background.jpg'>
+    <img src='https://cdn.dribbble.com/users/43762/screenshots/1438973/ng-colab-space_day.gif'>
+    <img src='https://image.shutterstock.com/image-vector/retro-future-space-exploration-poster-260nw-1660960924.jpg'>
+    <img src='https://i.pinimg.com/originals/3a/05/b1/3a05b1b2616c84d6338103c8ca160dad.jpg'>
+    <img src='https://images.8tracks.com/cover/i/001/887/294/1497459_10153664947240343_649563443_n-458.jpg?rect=157,0,405,405&q=98&fm=jpg&fit=max'>
+    <img src='https://cdn.dribbble.com/users/1908366/screenshots/4597043/spaceevent_dribbble.gif'>
+    <img src='https://i.pinimg.com/originals/33/56/e6/3356e6da02875717682784989b164c45.jpg'>
+  </div>
+
+</body>
+
+</html>
